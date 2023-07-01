@@ -1,0 +1,91 @@
+.active{
+    color: blue;
+}
+
+ul li{
+    cursor: pointer;
+}
+
+.logo-name{
+    width: fit-content;
+    margin: auto;
+}
+
+.logo-name a{
+    display: flex;
+    align-items: baseline;    
+}
+.logo-name a .s{
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: #24aefe;
+}
+.logo-name a .ourav{
+    font-size: 1.7rem;
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+}
+.logo-name a .ourav::after{
+   content: "ourav";
+   position: absolute;
+   background-color:transparent;
+   top: 0;
+   right: -9.6px;
+   height: 100%;
+   width: 114%;
+   transform: translateX(100%);
+   animation: name 7s linear infinite;
+   color: #24aefe;
+}
+@keyframes name {
+    0%{
+        transform: translateX(100%);
+    }
+    20%{
+        transform: translateX(50%);
+    }
+    40%{
+        transform: translateX(0%);
+    }
+    50%{
+      transform: translate(0%);
+    }
+    60%{
+        transform: translateY(0%);
+    }
+    80%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+@-webkit-keyframes name {
+    0%{
+        transform: translateX(100%);
+    }
+    20%{
+        transform: translateX(50%);
+    }
+    40%{
+        transform: translateX(0%);
+    }
+    50%{
+      transform: translate(0%);
+    }
+    60%{
+        transform: translateY(0%);
+    }
+    80%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+.navborder{
+    box-shadow: 4px 0px 27px 0px rgba(52, 52, 52, 0.15);
+    transition: all linear .3s;
+}

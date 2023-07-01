@@ -1,0 +1,12 @@
+.skillbg{
+    background-image: url("../../assets/computer-2982270_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.skill{
+    letter-spacing: 8px;
+}

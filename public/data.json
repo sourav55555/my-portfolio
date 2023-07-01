@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Summer of Sports",
+        "description": "It's a react base single-page website. This site is based on summer camp school where you can see the class details, enroll in a class, and many others. It has a dashboard system for 3 different types of user roles. Dashboard functionality will be different based on the user role. There are registration and login system with Firebase authentication. You can use your Google account for login/registration. Students can enroll in a class after completing full payment. Instructors can add their own classes and admin control all activities. It has private routes set up with JWT. There are visually appealing animations with a dark mood system. For the server side, I used MongoDB to manage data and JSON-web-token to verify the authorization of a user. Fully responsive website built on HTML, CSS, Tailwind, React, Firebase, Express, etc.",
+        "technology": "HTML, CSS, Tailwind, React, Farmer-Motion, Firebase, Axios, React-Query, DaisyUi, ExpressJs, MongoDB, JWT, NodeJs",
+        "main": "express",
+        "live": "https://practice62-5.web.app/",
+        "client": "https://github.com/sourav55555/summer-of-school-client.git",
+        "server": "https://github.com/sourav55555/Summer-camp-server.git",
+        "images": ["https://i.ibb.co/SsybyrV/Screenshot-2023-06-28-at-18-19-29-Summer-Of-School.png", "https://i.ibb.co/F3cvmkw/Screenshot-2023-06-28-at-18-19-56-Summer-Of-School.png", "https://i.ibb.co/pZwZHRF/Screenshot-2023-06-28-at-18-20-40-Summer-Of-School.png"]
+    },
+    {   
+        "name": "Kid's toy house",
+        "description": "It's a react-based single-page website. It's a toy store site where you can see all the toys available in the store. You can see the full detail about the toy. It has a login/registration system with Firebase. A user can register and add his/her own toy for sale. Users can update their own toy details. It has protected route system where you need to be authorized to see some routes. There are some animation effects for better visualization. For the server side, I used MongoDB to manage data and JSON-web-token to verify the authorization of a user. Fully responsive website built on HTML, CSS, Tailwind, React, Firebase, etc.",
+        "technology": "HTML, CSS, Tailwind, React, AOS, Firebase, DaisyUi, ExpressJs, JWT, MongoDB, NodeJs",
+        "main": "express",
+        "live": "https://new-firebase-dc58c.web.app",
+        "client": "https://github.com/sourav55555/Kid-s-toy-house.git",
+        "server": "https://github.com/sourav55555/kids-toy-house-server.git",
+        "images": ["https://i.ibb.co/RNG3q3S/Screenshot-2023-06-28-at-17-29-24-Kid-s-Toy.png", "https://i.ibb.co/R2nwgnV/Screenshot-2023-06-28-at-17-31-15-Kid-s-Toy.png"]
+    },
+    {
+        "name": "Chef's China",
+        "description": "It's a single-page website based on React. The website is about a Chinese restaurant. You can see the list of top chefs and their recipes in full detail. You can select your favorite recipe. Implemented Firebase authentication system for registering and log-in. You can also use Google or GitHub for login. Used Expressjs and Node for the server side. Fully responsive website built on HTML, CSS, Tailwind, React, Firebase etc.",
+        "technology": "HTML, CSS, Tailwind, React, Firebase, DaisyUi, ExpressJs, NodeJs",
+        "main": "express",
+        "live": "https://chef-s-china.web.app/",
+        "client": "https://github.com/sourav55555/Chef-s-China.git",
+        "server": "https://github.com/sourav55555/Chef-s-china-server.git",
+        "images": ["https://i.ibb.co/bzDsG43/Screenshot-2023-06-28-at-17-13-18-Chef-s-China.png", "https://i.ibb.co/tYP2j11/Screenshot-2023-06-28-at-17-14-52-Chef-s-China.png"]
+    },
+    {
+        "name": "Best-Jobs",
+        "description": "It's a job portal site, where you get the list of jobs. You can see full details, apply for jobs, and see the applied jobs. There is a blog page where you will get some questions ans about react. Fully responsive website built on HTML, CSS, Tailwind & React.",
+        "technology": "HTML, CSS, Tailwind, React",
+        "main": "react",
+        "live": "https://best-jobs.netlify.app",
+        "client": "https://github.com/sourav55555/Best-Jobs.git",
+        "images": ["https://i.ibb.co/N6tsgvn/Screenshot-2023-06-28-at-16-49-46-Best-Jobs.png", "https://i.ibb.co/pZnS5FT/Screenshot-2023-06-28-at-16-50-53-Best-Jobs.png"]
+    },
+    {
+        "name": "Know Programming",
+        "description": "It's a blog site for programmers. You can bookmark your favorite blogs and mark any read blogs. It will show you the total spent time on blogs. Small screen responsive website built on HTML, CSS, Tailwind & React.",
+        "technology": "HTML, CSS, Tailwind, React",
+        "main": "react",
+        "live": "https://knowledgeknow.netlify.app",
+        "client": "https://github.com/sourav55555/knowledge-kafe.git",
+        "images": ["https://i.ibb.co/QjBCBXb/Screenshot-2023-06-28-at-16-26-33-Know-Programming.png", "https://i.ibb.co/JxMS2gp/Screenshot-2023-06-28-at-16-30-57-Know-Programming.png"]
+    },
+    {
+        "name": "Quiz HERO",
+        "description": "It's a quiz test site with time limit countdown, marking system. It has a blog page where you can get some ans of Javascript questions. Fully responsive website built on HTML, CSS, Tailwind, ES6 & JavaScript.",
+        "technology": "HTML, CSS, Tailwind, JavaScript, ES6",
+        "main": "js",
+        "live": "https://quiz-hero-sourav.netlify.app",
+        "client": "https://github.com/sourav55555/quiz-hero.git",
+        "images": [ "https://i.ibb.co/0cpmzQn/Screenshot-2023-06-28-at-16-17-26-Quiz-Hero.png","https://i.ibb.co/C6y8j2r/Screenshot-2023-06-28-at-16-17-13-Quiz-Hero.png", "https://i.ibb.co/r2C63D1/Screenshot-2023-06-28-at-16-17-49-Quiz-Hero.png"]
+    },
+    {
+        "name": "AI Universe Hub",
+        "description": "It's a project about the list of AI with features and other details. Implemented a modal system for details. Small screen responsive website built on HTML, CSS, Tailwind, ES6 & JavaScript.",
+        "technology": "HTML, CSS, Tailwind, JavaScript, ES6",
+        "main": "js",
+        "live": "https://ai-universe-sourav.netlify.app/",
+        "client": "https://github.com/sourav55555/AI-hub",
+        "images": ["https://i.ibb.co/9wq0TbF/Screenshot-2023-06-28-at-15-48-42-AI-Universe.png", "https://i.ibb.co/YT2VgYy/Screenshot-2023-06-28-at-15-49-59-AI-Universe.png"]
+    },
+    {
+        "name": "Interactive Geometry Book",
+        "description": "It's a fun project about geometrical calculations of different shapes with different functions of JavaScript. Fully responsive website built on HTML, CSS, Tailwind & JavaScript.",
+        "technology": "HTML, CSS, Tailwind, JavaScript",
+        "main": "js",
+        "live": "https://interactive-geometric.netlify.app/",
+        "client": "https://github.com/sourav55555/Interactive-Geometric",
+        "images": ["https://i.ibb.co/0fM29rH/Screenshot-2023-06-28-at-15-33-50-Interactive-Geometric-Book.png", "https://i.ibb.co/M8mNPFk/Screenshot-2023-06-28-at-15-35-53-Interactive-Geometric-Book.png"]
+    },
+    {
+        "name": "Justice",
+        "description": "It's a landing page for Justice legal solutions. Fully responsive website built on HTML, CSS & Bootstrap.",
+        "technology": "HTML, CSS, Bootstrap",
+        "main": "frame",
+        "live": "https://legal-house-justice.netlify.app",
+        "client": "https://github.com/sourav55555/legal-house.git",
+        "images": ["https://i.ibb.co/SntyM7H/Screenshot-2023-06-28-at-15-11-12-Legal-Justice.png", "https://i.ibb.co/Y3nxkF3/Screenshot-2023-06-28-at-15-18-59-Legal-Justice.png"]
+    },
+    {
+        "name": "G3 Architects",
+        "description": "It's a simple landing page. It based on Architects. Fully responsive website built on HTML & CSS only.",
+        "technology": "HTML, CSS",
+        "main": "html",
+        "live": "https://sourav55555.github.io/g3-feature",
+        "client": "https://github.com/sourav55555/g3-feature.git",
+        "images": ["https://i.ibb.co/MktZxZf/Screenshot-2023-06-28-at-15-01-20-G3-Architects.png"]
+    },
+    {
+        "name": "New Year New Me",
+        "description": "This is a simple landing page. It was built on simple HTML & CSS only without any framework.",
+        "technology": "HTML, CSS",
+        "main": "html",
+        "live": "https://sourav55555.github.io/assignment-new-year",
+        "client": "https://github.com/sourav55555/assignment-new-year.git",
+        "images": ["https://i.ibb.co/jLy644Y/Screenshot-2023-06-28-at-14-53-01-New-Year-New-Me.png"]
+    }
+]

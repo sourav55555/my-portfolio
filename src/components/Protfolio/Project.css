@@ -1,0 +1,22 @@
+.links{
+    visibility: hidden;
+    height: 0rem;
+    transition: all .2s linear;
+    opacity: 0;
+}
+
+.cardmain:hover .links{
+    visibility: visible;
+    height: 6.5rem;
+    opacity: 1;
+    padding-top: 14px;
+    /* transition: all 1s linear; */
+}
+
+.button1{
+    @apply w-1/2 py-2 border bg-[rgb(72,78,94)] border-[#55c1ff] rounded-xl transition-all duration-300
+}
+
+.button1:hover{
+    @apply bg-[rgb(45,48,58)]
+}
