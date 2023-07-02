@@ -21,8 +21,8 @@ const navbar = () => {
     {/* responsive nav  */}
 
     <nav className="w-full md:hidden flex justify-between items-center p-4 bg-[rgb(103,109,130)] navborder">
-        <div className="logo-name ms-1 text-[#24aefe]">
-          <a href="#home">
+        <div className="logo-name ms-1 text-white">
+          <a href="#top">
             <span className="s">S</span>
             <span className="ourav">ourav</span>
           </a>
@@ -32,10 +32,10 @@ const navbar = () => {
         </button>
       </nav>
 
-      <div className={`w-[130px] h-screen bg-[rgb(103,109,130)] fixed navborder z-40 ${sidebar ? "left-0": "md:left-0 -left-[133px]"}`}>
+      <div className={`w-[130px] h-screen bg-[rgb(103,109,130)] absolute md:fixed navborder z-40 ${sidebar ? "left-0": "md:left-0 -left-[133px]"}`}>
       <div className="py-2 border-b md:block hidden">
-        <div className="logo-name text-[#24aefe]">
-          <a href="#home">
+        <div className="logo-name text-white">
+          <a href="#top">
             <span className="s">S</span>
             <span className="ourav">ourav</span>
           </a>

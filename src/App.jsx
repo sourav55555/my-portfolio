@@ -12,7 +12,7 @@ function App() {
     <div className="h-screen">
       <Navbar />
       <Home />
-      <About />
+      <About /> 
       <Skills />
       <Portfolio />
       <Contact />

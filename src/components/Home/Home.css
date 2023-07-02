@@ -7,11 +7,13 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    box-sizing: border-box;
+
 }
 
 .content{
-    /* padding: 120px 0px 49px calc((100% - 1060px) * 0.5); */
-    padding: 120px 0px 49px 10%;
+    /* padding: 120px 0px 49px calc((100%-980px) * 0.5); */
+    padding: 120px 0px 49px 30%;
 
 }
 
@@ -24,16 +26,25 @@
 }
 
 .imgpart{
-    width: 100%;
-    height: calc(100vh - 3%);
+    /* width: 100%; */
+    /* height: calc(100vh - 3%); */
     object-fit: cover;
     object-position: top;
     margin-left: auto;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 @media only screen and (max-width: 1004px) {
     .imgpart{
-        height: calc(32vh - 3%);
+        /* height: calc(32vh - 3%); */
+        width: 40%;
+        margin: auto;
+
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .content{
+        padding: 120px 0px 49px 50px;
     }
   }

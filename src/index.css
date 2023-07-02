@@ -17,6 +17,13 @@
     margin: auto;
 }
 
+@media only screen and (max-width: 768px){
+  .customContaier{
+    width: 100%;
+
+}
+}
+
 .icon{
     animation: rotate 3.4s infinite ease-in-out;
 }

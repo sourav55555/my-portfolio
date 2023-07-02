@@ -24,14 +24,12 @@ const Home = () => {
      }, []);
 
     return (
-        <div className="md:ps-[130px] p-0 h-[calc(100vh+60%)] md:h-[calc(100%+70%)] bg-no-repeat background relative">
-            <div className="bg-[rgba(114,121,143,.6)] h-full lg:h-[calc(100vh+41%)] w-full md:w-[calc(100%-130px)] absolute z-10"></div>
+        <div className="md:ps-[130px] p-0 h-[1088px] bg-no-repeat background relative box-border overflow-y-hidden">
+            <div className="bg-[rgba(114,121,143,.6)] h-[1088px] w-full md:w-[calc(100%-130px)] absolute z-10"></div>
 
-            <video  ref={videoRef} className="vid" src={myVideo} autoPlay loop muted></video>
+            <div className="customContaier ps-6 md:ps-28 lg:ps-0 h-[60vh] z-20 absolute right-[50%] translate-x-[37%] top-[28vh] lg:top-16">
 
-            <div className="customContaier ps-6 md:ps-28 lg:ps-0">
-
-                <div className="w-[640px] mx-auto content z-20 absolute top-[27vh] lg:top-16">
+                <div className="w-[640px] mx-auto content ">
                     <div className="font1 text-white" data-aos="zoom-out-right"  data-aos-easing="linear" data-aos-duration="900">
                         <h2 className="md:text-[66px] text-5xl font-bold">I <span className="text-[#008ce3]">'</span> M</h2>
                         <h2 className="md:text-[70px] text-5xl  font-bold name">Sourav</h2>
@@ -47,10 +45,13 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute h-full overflow-hidden top-8 lg:right-0 right-[50%] lg:translate-x-0 translate-x-[50%] lg:w-[36%] bannerimg px-6 pt-6 pb-0 z-20" >
+            <div className="absolute overflow-hidden h-auto top-8 lg:right-0 right-0 lg:translate-x-0 translate-x-[30%] w-full text-center md:w-[36%] bannerimg px-6 pt-6 pb-0 z-20" data-aos="fade-up" data-aos-duration="900">
 
-                <img className="imgpart opacity-70" src={myImage} alt="" data-aos="zoom-in-up" data-aos-duration="900"/>
+                <img className="imgpart opacity-60" src={myImage} alt="" />
             </div>
+
+            <video  ref={videoRef} className="vid" src={myVideo} autoPlay loop muted></video>
+            
             
         </div>
     );

@@ -24,15 +24,15 @@ const Contact = () => {
 
   return (
     <div
-      className=" ms-[130px] relative pt-10 pb-52 contactbg"
+      className=" lg:ms-[130px] relative pt-10 pb-52 contactbg"
       
     >
-      <div className="w-[880px] -mt-[25%] mx-auto bg-[rgb(51,59,68)] pt-12 pb-16 px-20 font2 h-auto" id="contact">
+      <div className="lg:w-[880px] w-[94%] -mt-[440px] lg:-mt-[340px] mx-auto bg-[rgb(51,59,68)] pt-12 pb-16 px-6 lg:px-20 font2 h-auto" id="contact">
 
-          <p className="text-[2.7rem] font-bold font1 text-center text-white skill" data-aos="zoom-in-down" data-aos-duration="900"> <FontAwesomeIcon  className="text-[#6fcaff] icon" icon={faNfcDirectional} /> Contact Me</p>
+          <p className="text-[2.7rem] font-bold font1 text-center text-white skill" data-aos="zoom-in-down" data-aos-duration="900"> <FontAwesomeIcon  className="text-[#6fcaff] icon block lg:inline mx-auto" icon={faNfcDirectional} /> Contact Me</p>
 
-        <div className="flex items-start gap-12 justify-center mt-16">
-          <div className=" space-y-8 text-white w-1/2 mt-12" data-aos="zoom-in-right" data-aos-duration="1000">
+        <div className="flex items-start gap-12 justify-center lg:flex-row flex-col mt-16">
+          <div className=" space-y-8 text-white lg:w-1/2 mt-0 lg:mt-12" data-aos="zoom-in-right" data-aos-duration="1000">
             <div className="flex items-center gap-4">
               <img className="h-10 w-10 rounded-full" src={email} alt="" />
               <p>souravsingha146@gamil.com</p>
@@ -46,7 +46,7 @@ const Contact = () => {
               <p>Dhaka-1000, Bangladesh</p>
             </div>
           </div>
-          <div className="w-1/2 font2 text-white">
+          <div className="lg:w-1/2 w-full font2 text-white">
             <form className="space-y-4" ref={form} onSubmit={sendEmail} data-aos="fade-right" data-aos-duration="1900">
               <div >
                   <label className="block mb-2">Name *</label>

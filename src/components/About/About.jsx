@@ -3,10 +3,10 @@ import aboutimg from "../../assets/0514191111c.jpg";
 const About = () => {
   return (
     <div
-      className="h-screen ms-0 md:ms-[130px] z-40 bg-transparent relative"
+      className="h-auto ms-0 md:ms-[130px] z-40 bg-transparent relative"
       id="about"
     >
-      <div className=" lg:w-[820px] w-[94%] -mt-[75%] md:-mt-[22%] mx-auto bg-[rgb(51,59,68)] py-8 px-5 lg:p-20 font2 ">
+      <div className=" lg:w-[820px] h-[51.5rem] lg:h-[660px] w-[94%] -mt-[21rem] md:-mt-[330px] mx-auto bg-[rgb(51,59,68)] py-8 px-5 lg:p-20 font2 ">
         <div className="rounded-full w-fit border-4 border-[#147cb9] mx-auto mb-10 md:mb-16" data-aos="zoom-in-down" data-aos-duration="900">
           <img className="w-32 h-32 rounded-full" src={aboutimg} alt="" />
         </div>

@@ -18,7 +18,7 @@ ul li{
 .logo-name a .s{
     font-weight: 600;
     font-size: 1.9rem;
-    color: #24aefe;
+    color: white;
 }
 .logo-name a .ourav{
     font-size: 1.7rem;
@@ -36,7 +36,7 @@ ul li{
    width: 114%;
    transform: translateX(100%);
    animation: name 7s linear infinite;
-   color: #24aefe;
+   color: white;
 }
 @keyframes name {
     0%{

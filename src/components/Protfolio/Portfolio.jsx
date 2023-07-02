@@ -30,14 +30,14 @@ const Portfolio = () => {
 
 
     return (
-        <div className=" bg-[rgb(105,114,138)] ms-[130px]" id="portfolio">
+        <div className=" bg-[rgb(105,114,138)] lg:ms-[130px] p-6" id="portfolio">
 
 
 
-            <div className="w-[84%] mx-auto py-20">
-                <p className="text-5xl font-bold font1 text-center text-white skill" data-aos="zoom-in-down" data-aos-duration="900"> <FontAwesomeIcon  className="text-[#6fcaff] icon" icon={faNfcDirectional} /> Portfolio</p>
+            <div className="lg:w-[84%] mx-auto py-20">
+                <p className="text-5xl font-bold font1 text-center text-white skill" data-aos="zoom-in-down" data-aos-duration="900"> <FontAwesomeIcon  className="text-[#6fcaff] icon mb-6" icon={faNfcDirectional} /> Portfolio</p>
                 <p className="mt-8 text-white font1 mx-auto text-center text-3xl" data-aos="zoom-in-down" data-aos-duration="900">My all works related to my skills</p>
-                <div className="grid grid-cols-3 gap-6 mt-20">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-20">
                     {
                         projects.slice(0,proj).map((project, index) => <Project key={index} ind={index} proj={project}/>)
                     }
@@ -45,7 +45,7 @@ const Portfolio = () => {
                 <div className="text-center mt-12">
                     { !show && <button className="px-8 py-3 border-2 bg-[#003d60] border-[#003d60] hover:bg-[#0077c1] rounded-2xl text-white transition-all duration-200 shadow-lg shadow-slate-600"  onClick={() => setShow(true)}>Show All</button>}
                 </div>
-                <div className="h-[calc(100vh*.55)] bg-transparent">
+                <div className="h-[400px] bg-transparent">
 
                 </div>
             </div>

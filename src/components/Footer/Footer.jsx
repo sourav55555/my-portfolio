@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     return (
-        <div className=" bg-[rgb(40,43,53)] ms-[130px] pt-12 pb-10">
+        <div className=" bg-[rgb(40,43,53)] lg:ms-[130px] pt-12 pb-10">
             <div className="text-center space-y-7">
                 <p className="text-3xl font-bold font1 text-center text-white"> Sourav Singha</p>
                 <div className="">
