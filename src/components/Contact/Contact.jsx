@@ -6,7 +6,8 @@ import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNfcDirectional } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import "./Contact.css"
+import "./Contact.css";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
   const form = useRef();
@@ -17,6 +18,9 @@ const Contact = () => {
     emailjs.sendForm('service_4jnuosj', 'template_km8pxvp', form.current, 'BYbd-PQs6IICMWgrQ')
       .then((result) => {
           console.log(result);
+          toast.success('Message Sent.')
+          e.target.reset();
+
       }, (error) => {
           console.log(error);
       });
@@ -65,6 +69,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Toaster />
     </div>
   );
 };

@@ -4,12 +4,35 @@ import { useState } from "react";
 import "./Project.css";
 import { Button, Modal, Box } from "@mui/material";
 import { useEffect } from "react";
+// import Img from 'react-optimized-image';
+import { PushSpinner } from "react-spinners-kit";
 
 
 const Project = ({ proj, ind }) => {
   const { name, description, technology, main, live, client, server, images } = proj;
 
   const [resModal, setResModal] = useState(false);
+
+
+  // lazy img
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = images[0];
+
+    const handleLoad = () => {
+      setLoaded(true);
+    };
+
+    img.addEventListener('load', handleLoad);
+
+
+    // Clean up the event listeners
+    return () => {
+      img.removeEventListener('load', handleLoad);
+    };
+  }, [images]);
 
   
   if (server) {
@@ -40,7 +63,9 @@ const Project = ({ proj, ind }) => {
   return (
     <div className="p-3 bg-[rgb(83,89,106)] border-2 hover:border-[#6fcaff] border-[#cdcdcd] rounded-2xl relative cardmain transition-all duration-300" data-aos-duration={(ind*300) + 900} data-aos="fade-right">
       <div className="lg:h-[290px] h-[370px] overflow-hidden rounded-xl no-scrollbar">
-        <img className="rounded-xl" src={images[0]} alt="" />
+        {
+          loaded ? <img className="rounded-xl" src={images[0]} alt="" loading="lazy"/> : <p className="py-12 w-fit mx-auto"><PushSpinner size={20} color="#003d60" loading={true} /></p>
+        }
       </div>
       <div className="absolute bg-[rgb(83,89,106)] p-4 text-center w-[90%] left-[18px] rounded-xl font2 text-white bottom-4 ">
         <p className="font-semibold">{name}</p>
@@ -96,6 +121,7 @@ const Project = ({ proj, ind }) => {
               <div className="relative h-full overflow-y-auto">
                 {images.map((image, index) => (
                   <img
+                  loading="lazy"
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}
@@ -144,6 +170,7 @@ const Project = ({ proj, ind }) => {
               <div className="relative h-full overflow-y-auto">
                 {images.map((image, index) => (
                   <img
+                  loading="lazy"
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}

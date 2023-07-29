@@ -10,7 +10,7 @@ const Home = () => {
 
     const [text] = useTypewriter({
         words: ['Full - Stack Developer', 'Front - End Developer', 'MERN Stack Developer'],
-        loop: 3,
+        loop: Infinity,
         typeSpeed: 60,
         deleteSpeed: 40,
         delaySpeed: 2000,
@@ -41,7 +41,7 @@ const Home = () => {
                         <Cursor cursorColor='hsl(140,100%,42%)' />
                     </div>
                     <div className="mt-12" data-aos="zoom-out-right"  data-aos-easing="linear" data-aos-duration="1300" data-aos-offset="100">
-                        <a className="px-8 py-3 border-[3px] bg-[#003d60] border-[#003d60] hover:bg-[#0077c1] rounded-2xl text-white transition-all duration-200 shadow-lg shadow-slate-600" href="./Sourav_singha_full_stack_resume.pdf" download>Download Resume <FontAwesomeIcon className="ms-2" icon={faDownload} /></a>
+                        <a className="px-8 py-3 border-[3px] bg-[#003d60] border-[#003d60] hover:bg-[#0077c1] rounded-2xl text-white transition-all duration-200 shadow-lg shadow-slate-600" href="./Sourav_singha_full_stack_resume_1.pdf" download>Download Resume <FontAwesomeIcon className="ms-2" icon={faDownload} /></a>
                     </div>
                 </div>
             </div>

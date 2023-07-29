@@ -17,6 +17,10 @@
     }
 }
 
+.cardmain{
+    overflow: hidden;
+}
+
 .cardmain:hover .links{
     visibility: visible;
     height: 6.5rem;
